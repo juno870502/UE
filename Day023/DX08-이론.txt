@@ -1,0 +1,12 @@
+UV_Animation
+wrap - 반복 / mirror - 반사된 이미지 반복 / clamp - 해당 픽셀 연장
+버퍼 재사용 - UpdateSubresource
+
+samplerState - d3d11_filter
+min 줄어들면, mag 늘어나면, linear 선형보간, point 포인트샘플링
+
+Mesh
+메쉬 클래스 안에 정점, 인덱스 등등 정보(입력 레이아웃)를 넣어 모델별로 관리할 수 있도록
+
+directxmath - dx12 부터 사용된 수학 함수 (기존엔 xnamath)(이전엔 d3dx10math)
+namespace directx 사용됨
