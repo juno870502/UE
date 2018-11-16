@@ -1,0 +1,71 @@
+DB
+Database 데이터 관리 방법론
+sql : MySQL, MSSQL, Oracle, MariaDB
+nosql : 다이나모 몽고디비
+공간 : 아마존(AWS), 카페24
+중간접속 : Web, Node.js
+
+MySQL 커뮤니티버전
+파이썬 설치 필요
+
+root/1234
+
+환경변수 패스에 실행파일 폴더 넣어야함
+mysql -uroot -p
+1234
+show databases;
+explain(=desc) table명 : 속성 설명
+help : 명령어 설명 query 제외
+create : 생성		characterset utf8 collate utf8_bin;
+drop : 삭제
+
+종료 : exit
+excel filename : database name
+excel sheet : database table
+
+field / row : 속성 / 자료(엔티티)
+var(5) 가변길이 5자 밑은 작은 크기로 최대 5자까지
+
+문자열 검색 like 's%' 비추천, 느림
+
+정규화 겹치는 데이터를 관리하는 방법 
+
+테이블 생성
+create table user (
+no int not null auto_increment, 
+userid char(50) not null, 
+passwd char(100) not null, 
+name varchar(30) not null, 
+email varchar(30) not null, 
+primary key(no));
+
+텍스트에서 테이블 붙여넣기
+mysql -uroot -p -D데이터베이스이름 < table.sql
+백업 덤프
+mysqldump -uroot -p 데이터베이스이름 테이블이름 > table2.sql
+
+값 입력
+insert into user 
+(userid, passwd, name, email)
+values
+('juno', '1234', '윤준호', 'juno@naver.com');
+
+insert into user values
+(3, 'asdf', '1234', 'asdf', 'asdf@naver.com');
+
+삭제
+drop table where!!
+delete where!!
+trucate 테이블명
+
+수정 
+alter table 테이블명 원본 바꿀것
+
+row 변경 update where!!
+update userset
+passwd = sha2('1112', 256),
+userid = 'junios'
+where no = 2;
+
+암호화 md5 -> sha2(비번, 256)
+비번 저장할 때는 반드시 암호화!
