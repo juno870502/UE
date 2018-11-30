@@ -1,0 +1,28 @@
+HTTP - Header, Body
+200 - 규약
+Latency - 네트워크로 주고 받는데 걸리는 시간
+get / post / put / delete 방식
+get은 url로 표기가 되며 post는 따로 표기 안됨
+put, delete 는 서버에 데이터 입력, 삭제
+http 통신 규약 REST 
+
+옵저버 패턴(디자인 패턴) - 이벤트 발동 시 등록한 함수 실행
+Delegate Event
+의존성을 깨는 방식
+
+unity(ue), gimp, blender
+
+배치파일(bat)
+명령어들을 묶어서 실행해주는 파일 운영체제마다 명령어가 다름
+echo 명령어들을 콘솔에 보여줌
+%cd% 현재 폴더로 이동
+
+노드js 프로젝트 매니저 관리 명령어
+npm init : 초기화 프로젝트.json 생성
+npm install : 외부모듈 설치
+npm start : start 지정 파일 실행해주는
+
+유용한 외부모듈(특정 버전 : 모듈명@버전지정)
+supervisor : 코드 변경시 재실행, 서버 크래쉬시 재실행
+formidable : 폼 사옹 모듈
+express : html 확장 외부모듈

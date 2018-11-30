@@ -1,0 +1,11 @@
+//그룹바이 나라별 도시 수 많은 순 정렬
+select countrycode, count(id) from city group by countrycode order by count(id) desc limit 0, 20;
+
+//디스팅트 지역 테이블에서 대륙 중복 제거
+select distinct continent from country;
+
+//지역과 언어를 조합
+//레프트조인
+select a.id, a.name, a.district, a.population, b.language, b.percentage from city as a left join countrylanguage as b on a.countrycode = b.countrycode limit 0, 30;
+//라이트조인
+select a.id, a.name, a.district, a.population, b.language, b.percentage from city as a right join countrylanguage as b on a.countrycode = b.countrycode limit 0, 30;

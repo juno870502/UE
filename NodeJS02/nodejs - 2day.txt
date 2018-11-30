@@ -1,0 +1,20 @@
+var = auto
+strong typed | loose typed
+int, float ... | auto, var ...
+
+무명함수
+function(){}
+()=>{}
+
+mime type ex - 'image/jpeg'
+
+html js css
+틀 함수 모양
+
+typeof 변수 === 변수타입
+변수의 타입을 확인 함
+맞으면 true 틀리면 false
+
+규약 설정 중요
+'/' : fsHandler.body,
+'/favicon.ico' : fsHandler.icon

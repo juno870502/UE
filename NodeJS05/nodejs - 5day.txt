@@ -1,0 +1,36 @@
+RESRful Get, Post, Put, Delete
+/collection/:id -> /collection/1
+
+쿠키에 정보 저장되어있음
+
+res.redirect(url);
+리디렉션 - 해당 url로 보내는 방식
+
+res.writeHead(200, {'Content-Type':'text/html'});
+res.setHeader('Content-Type', 'text/html');
+헤더만 따로 설정 가능
+
+body-parser 미들웨어
+text 형태의 포스트 데이터를 사용 - req.body
+
+connect-multiparty 미들웨어
+파일 형태의 포스트 데이터를 사용
+
+formidable 모듈
+포스트 데이터를 사용
+
+선언과 실행을 동시에
+var func=(()=>{})();
+
+storage[];
+storage.splice(key, num);
+key 부터 num만큼 제거
+
+자바스크립트 
+클로져 - 어려움!
+내부 함수를 반환해서 외부에서 갖고있는 형태
+스코프를 통해 변수범위를 사용하지 않음
+함수만 사용
+||, && - 다른 사용법!
+좌변이 null일때 ||는 오른쪽 실행, &&는 왼쪽 실행
+상속 - 알아서 살펴보기!

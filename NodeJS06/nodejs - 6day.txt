@@ -1,0 +1,44 @@
+npm install 모듈 모듈 모듈
+한번에 설치 가능
+
+supervisor, forever
+재실행 모듈
+
+호환관련 옵션
+^, >, <, >=, <= ....
+
+js 객체
+var obj ={
+    name : 'test',
+    region : 'seoul'
+}
+js 생성자
+function name(var1, var2,..){
+    this.var1 = var1;
+    this.var2 = var2;
+    ...
+}
+js 생성
+var juno = new name('var1', 'var2'..)
+생성자의 this 는 생성할때 앞의 
+juno 객체를 가리킨다.
+
+mysql.createconnetcion()
+필요필수정보는 user, password, database
+
+http
+res.setHeader('Content-Type', 'text/html');
+express
+res.type('text/html');
+
+dictionory
+hash table
+key : value
+
+쿠키
+cookie(키, 값) - 쿠키생성
+clearCookie(키) - 쿠키삭제
+
+MVC 모델, 뷰, 컨트롤러
+
+ejs뷰엔진을 사용해서 mysql과 통신
