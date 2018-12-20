@@ -1,0 +1,48 @@
+
+LogBlueprintUserMessages: [ActorCheck_C_16] Server: GameModeBase
+LogBlueprintUserMessages: [ActorCheck_C_16] Server: GameStateBase
+LogBlueprintUserMessages: [ActorCheck_C_16] Server: PlayerController
+LogBlueprintUserMessages: [ActorCheck_C_16] Server: PlayerState
+LogBlueprintUserMessages: [ActorCheck_C_16] Server: DefaultPawn
+LogBlueprintUserMessages: [ActorCheck_C_16] Server: PlayerController1
+LogBlueprintUserMessages: [ActorCheck_C_16] Server: PlayerState1
+LogBlueprintUserMessages: [ActorCheck_C_16] Server: DefaultPawn1
+LogBlueprintUserMessages: [ActorCheck_C_16] Server: PlayerController2
+LogBlueprintUserMessages: [ActorCheck_C_16] Server: PlayerState2
+LogBlueprintUserMessages: [ActorCheck_C_16] Server: DefaultPawn2
+LogBlueprintUserMessages: [ActorCheck_C_16] Server: PlayerController3
+LogBlueprintUserMessages: [ActorCheck_C_16] Server: PlayerState3
+LogBlueprintUserMessages: [ActorCheck_C_16] Server: DefaultPawn3
+
+LogBlueprintUserMessages: [ActorCheck_C_16] Client 1: PlayerController1
+LogBlueprintUserMessages: [ActorCheck_C_16] Client 1: DefaultPawn
+LogBlueprintUserMessages: [ActorCheck_C_16] Client 1: DefaultPawn1
+LogBlueprintUserMessages: [ActorCheck_C_16] Client 1: DefaultPawn2
+LogBlueprintUserMessages: [ActorCheck_C_16] Client 1: DefaultPawn3
+LogBlueprintUserMessages: [ActorCheck_C_16] Client 1: PlayerState
+LogBlueprintUserMessages: [ActorCheck_C_16] Client 1: PlayerState1
+LogBlueprintUserMessages: [ActorCheck_C_16] Client 1: GameStateBase
+LogBlueprintUserMessages: [ActorCheck_C_16] Client 1: PlayerState2
+LogBlueprintUserMessages: [ActorCheck_C_16] Client 1: PlayerState3
+
+LogBlueprintUserMessages: [ActorCheck_C_16] Client 2: PlayerController1
+LogBlueprintUserMessages: [ActorCheck_C_16] Client 2: DefaultPawn
+LogBlueprintUserMessages: [ActorCheck_C_16] Client 2: DefaultPawn1
+LogBlueprintUserMessages: [ActorCheck_C_16] Client 2: DefaultPawn2
+LogBlueprintUserMessages: [ActorCheck_C_16] Client 2: DefaultPawn3
+LogBlueprintUserMessages: [ActorCheck_C_16] Client 2: PlayerState
+LogBlueprintUserMessages: [ActorCheck_C_16] Client 2: PlayerState1
+LogBlueprintUserMessages: [ActorCheck_C_16] Client 2: GameStateBase
+LogBlueprintUserMessages: [ActorCheck_C_16] Client 2: PlayerState2
+LogBlueprintUserMessages: [ActorCheck_C_16] Client 2: PlayerState3
+
+LogBlueprintUserMessages: [ActorCheck_C_16] Client 3: PlayerController1
+LogBlueprintUserMessages: [ActorCheck_C_16] Client 3: DefaultPawn
+LogBlueprintUserMessages: [ActorCheck_C_16] Client 3: DefaultPawn1
+LogBlueprintUserMessages: [ActorCheck_C_16] Client 3: DefaultPawn2
+LogBlueprintUserMessages: [ActorCheck_C_16] Client 3: DefaultPawn3
+LogBlueprintUserMessages: [ActorCheck_C_16] Client 3: PlayerState
+LogBlueprintUserMessages: [ActorCheck_C_16] Client 3: GameStateBase
+LogBlueprintUserMessages: [ActorCheck_C_16] Client 3: PlayerState1
+LogBlueprintUserMessages: [ActorCheck_C_16] Client 3: PlayerState2
+LogBlueprintUserMessages: [ActorCheck_C_16] Client 3: PlayerState3

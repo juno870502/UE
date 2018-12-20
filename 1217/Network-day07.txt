@@ -1,0 +1,14 @@
+OSI 7계층 - 통신의 시초
+TCP / UDP
+
+FreeBSD 버클리 소켓 / 윈도우 소켓
+
+socket 10k 이상
+-> epoll, iocp
+
+STL -> boost
+ACE 'Boost' POCO 네트워크 라이브러리들
+
+accept는 연결 후 새 소켓으로 이주하고 기존 소켓은 대기하기 위한 명령
+
+recv에서 문자열 -1은 끝이 null값이라 -1 처리

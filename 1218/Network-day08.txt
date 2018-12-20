@@ -1,0 +1,25 @@
+버퍼 오버플로우 / 스택 오버플로우
+recv 함수에서 버퍼만큼의 값이나 그 이상의 값을 받게되면
+할당된 메모리 너머의 값을 조작하게 되어 공격의 방법이 될 수 있다.
+이것을 막기 위해 scanf'_s' 와 같이 막거나,
+VS 프로젝트 메니저에서 설정으로 막을 수 있다
+
+zero copy 최적화 관련 문제 해결론
+
+TCP는 데이터를 흐름에 맞춰 보내기 때문에
+데이터의 시작과 끝을 따로 구분하지 않음
+네트워크의 상태가 나쁠 경우 전체 데이터를 수신한지 확인이 필요
+포인터 연산을 통해 전체 데이터 확인
+
+UDP : DGRAM
+listen과 accept, connect 가 없고 recv -> 
+recvfrom(socket, buffer, sizeof(buffer), clntSockAddr, sizeof(clntSockAddr))
+로 바뀜
+send -> sendto(socket, Buffer, Buffersize, 0, clntSockAddr, sizeof(clntSockAddr))
+로 바뀜
+UDP는 부하가 적고 속도가 빠르지만 신뢰성이 떨어짐
+Reliable UDP(RUDP) 지원 Game, 동영상에 쓰임
+페킷사이즈가 비대하게 커지면 OS가 버림
+
+IO 멀티플렉싱
+연결된 소켓들에게 반복적으로 질의하여 이벤트를 감지
