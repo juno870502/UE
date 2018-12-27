@@ -1,0 +1,35 @@
+헤더 인클루드시 위치 주의
+
+ptr unique, soft
+
+C++컨텐츠팩 추가 시 cs파일에 HeadMountedDisplay 모듈을 추가해야 정상 동작
+UE4/Source/Runtime 부분에 모듈 집합 있음
+
+"Kismet/GameplayStatics.h"
+전역 유틸리티 헤더 많이 쓰임
+
+Core : 윈도우인지 안드로이드인지 맥인지 구분
+CoreUObject : 모드 올림
+Engine : 엔진 띄움
+InputCore : 인풋 띄움
+그 다음 만든거 띄움
+
+삭제는 윈도우탐색기에서 해당 폴더를 지우고 sln도 지움.
+uproject 우클릭 후 sln생성.
+이후 리빌드로 완료
+
+CDO 클래스 디폴트 오브젝트
+언리얼은 모든 만든 클래스들을 메모리에 적재한다
+따라서 생성자는 CDO 생성할 때 하는 일을 적어야 함
+
+save as 에서 저장 인코딩을 utf-8로 해야함
+
+UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
+블루프린트에서 접근하기 위한 속성설정
+첫 값 Anywhere/Instance/DefaultsOnly 기본값객체모두/객체/기본값만
+	Edit/Visible 컴포넌트자체까지/컴포넌트하위속성
+둘 값 BlueprintReadOnly/BlueprintReadWrite get만/getset모두
+
+기능을 cpp로 만들고 블루프린트로 불러와서 사용하는게 권장
+
+상속받은 함수는 꼭 super로 부모 함수를 실행해야함

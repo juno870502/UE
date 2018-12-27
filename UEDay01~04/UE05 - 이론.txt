@@ -1,0 +1,4 @@
+UFUNCIONT(BlueprintCallable)
+C++에서 만든 함수를 블루프린트에서 불러올 수 있음
+
+GetOwner() 해당 액터를 생성한 액터 불러옴

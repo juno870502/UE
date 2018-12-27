@@ -1,0 +1,25 @@
+#include "Engine/World.h"	//GetWorld
+#include "Kismet/GameplayStatics.h"	//Static(Global) Utilities
+
+GetWorld()->SpawnActor<AMyActor>(parameter);
+
+엔진관리함수
+UFUNCION()
+
+함수포인터 델리게이트
+함수.AddDynamic(class이름, 함수포인터);
+해당 함수를 지정한 함수포인터 실행으로 변환
+
+블루프린트를 C++에서 불러오려면,
+해당경로에 마지막 _C를 붙여야 불러옴
+
+UFUNCTION(BlueprintImplementableEvent)
+void BlueprintTest();
+블루프린트에서 함수 구현
+
+UFUNCTION(BlueprintNativeEvent) 
+void BlueprintNative();
+//기본구현은 C++에서 하고 BP에서 오버라이딩
+virtual void BlueprintNative_Implementation();
+//기본 구현 함수
+블루프린트에서 재정의하면 기본함수 안씀, 부모 호출하려면 부모 : BlueprintNative 연결
